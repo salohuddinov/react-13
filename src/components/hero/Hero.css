@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__left {
+    width: 250px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.hero__left h3 {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 9px 0;
+}
+
+.hero__right img {
+    width: 892px;
+    height: 344px;
+}

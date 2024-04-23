@@ -1,0 +1,134 @@
+.singleproduct {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 55px 0;
+}
+
+.single__img {
+    width: 409px;
+    height: 409px;
+    box-shadow: 0 0 8px #ddd;
+    border-radius: 15px;
+}
+
+.element {
+    display: flex;
+    gap: 8px;
+}
+
+.element__inout {
+    width: 90px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #222;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+
+.box {
+    width: 306px;
+}
+
+
+.titleh4 {
+    color: rgb(119, 119, 119);
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    margin-left: 40px;
+}
+
+.fost {
+    display: flex;
+    gap: 15px;
+    /* margin: 0 auto; */
+}
+
+.fost h3 {
+    color: rgb(182, 182, 182);
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+    padding-top: 20px;
+}
+
+.single__price {
+    color: #222;
+    font-family: Quicksand;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.single__right__p {
+    width: 466.5px;
+    height: 69px;
+    color: rgb(126, 126, 126);
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px auto;
+}
+
+
+
+.product__count {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.product__count button {
+    width: 53.33px;
+    height: 24px;
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: #222;
+    margin-top: 8px;
+}
+
+.addtocart {
+    width: 159.59px;
+    height: 50px;
+    border-radius: 5px;
+    background: #222;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.element h2 {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    /* opacity: 0.6; */
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+}
